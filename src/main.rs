@@ -83,5 +83,5 @@ fn main() {
 // 		.points(&[xs[xs.len() - 1]], &[ys[ys.len() - 1]], &[])
 // 		.points(&[cxs[cxs.len() - 1]], &[cys[cys.len() - 1]], &[]);
 // 	let _ = fg.show();
-// 	// let _ = fg.save_to_pdf("12km.pdf", 20.0, 10.0);
+// 	// let _ = fg.save_to_png("12km.png", 1024, 400);
 // }
