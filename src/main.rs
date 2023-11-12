@@ -26,7 +26,7 @@ fn main() {
 	// let mut cxs = vec![0.0];
 	// let mut cys = vec![0.0];
 
-	while p.0 * p.0 + p.1 * p.1 >= RR_EARTH {
+	while p.length_squared() >= RR_EARTH {
 		a_earth += AV_EARTH * TIME_STEP;
 		iteration += 1;
 
